@@ -4,19 +4,18 @@
 int check_prime(int n, int i);
 
 /**
- *
- * is_prime_number - Returns if a number is prime
+ * is_prime_number: Returns 1 if the input integer is a prime number, otherwise return 0
  * @n: the number to be checked
  *
  * Return: integer value
  */
-int is_prime_number(int n)
+int is_prime_number(int n)i;
 {
 	return (check_prime(n, 1));
 }
 
 /**
- * check_prime - check if number is prime
+ * check_prime: check if number is prime
  * @n: the number to be checked
  * @i: the iteration times
  *
