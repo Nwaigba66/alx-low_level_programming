@@ -13,3 +13,5 @@ Is a  command is used to create a static library from object files.
 
 ranlib:
 The command used to create or update the index is called 'ranlib
+
+Then you proceed to add all files
