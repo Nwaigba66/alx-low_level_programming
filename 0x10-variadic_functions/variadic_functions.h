@@ -1,9 +1,10 @@
-#ifndef VARIADIC_FUNCTIONS_H
-#define VARIADIC_FUNCTIONS_H
+#ifndef _VARIADIC_FUNCTIONS_H_
+#define _VARIADIC_FUNCTIONS_H_
 
 #include <stdio.h>
 #include <stdarg.h>
 
+/* _VARIADIC_FUNCTIONS_H_ */
 typedef struct print_format
 {
 	char symbol;
@@ -18,5 +19,4 @@ void print_char(va_list arg);
 void print_int(va_list arg);
 void print_float(va_list arg);
 void print_str(va_list arg);
-
 #endif
