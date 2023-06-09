@@ -2,7 +2,7 @@
 
 /**
  * create_and_add_node - malloc, set values, and insert node into hash table
- * @ht: hash table
+ * @hash_table: hash table
  * @key: key; can't be empty string
  * @value: value
  * @idx: index to insert in at hash table
