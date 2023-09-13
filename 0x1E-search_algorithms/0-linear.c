@@ -22,10 +22,10 @@ int linear_search(int *array, size_t size, int value)
 		/* Print the value being checked */
 		printf("value checked array[%ld] = [%d]\n)", i, array[i]);
 		/* If the value is found */
-	if (array[i] == value)
+		if (array[i] == value)
 		/* Return the index of the value */
-		return (i);
+			return (i);
 	}
 	/* Value not found, return -1 */
-	return (-1);
+			return (-1);
 }
